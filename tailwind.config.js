@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'podium-sharp': ['"FSP DEMO - PODIUM Sharp 4.11"', 'sans-serif'],
+        'sf-pro': ['"SF Pro Display"', 'sans-serif'],
       },
     },
   },
