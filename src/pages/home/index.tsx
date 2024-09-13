@@ -2,8 +2,10 @@ import { FC } from "react";
 
 const Home: FC = () => {
     return (
-        <div>
-            Home
+        <div className="min-h-screen">
+            <p className="font-podium-sharp font-[900]">
+                PRIMEAUTOCASH
+            </p>
         </div>
     )
 }
