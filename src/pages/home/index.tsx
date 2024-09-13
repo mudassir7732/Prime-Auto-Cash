@@ -26,7 +26,7 @@ const Home: FC = () => {
                             </p>
                         </div>
                     </p>
-                    <p className="text-[18px] font-[600] font-[Manrope] text-[#171717] mt-[50px]">
+                    <p className="text-[18px] font-[600] font-[Manrope] text-[#171717] my-[50px]">
                         VIN Number
                     </p>
                     <div className="flex flex-row items-center justify-between h-[48px] w-full px-[16px] border-[2px] border-[rgba(23, 23, 23, 0.1)] rounded-[12px] " >
