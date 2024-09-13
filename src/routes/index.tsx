@@ -1,11 +1,14 @@
 import { FC } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 const AppRoutes:FC=()=>{
     return(
-        <div>
-            
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 export default AppRoutes;
