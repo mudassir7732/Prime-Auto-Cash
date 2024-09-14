@@ -8,11 +8,11 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
     return (
-        <div>
+        <>
             <Header />
             {children}
             <Footer />
-        </div>
+        </>
     )
 }
 export default Layout;
