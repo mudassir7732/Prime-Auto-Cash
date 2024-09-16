@@ -51,7 +51,7 @@
     transform: rotate(360deg);
   }
 }
-
+/* 
 .header {
   height: 72px;
 }
@@ -60,7 +60,6 @@
   .header {
     height: 102px;
   }
-}
 
 .header-buttons-container {
   column-gap: 45px;
@@ -104,6 +103,7 @@
   }
 }
 
+
 .header-buttons-wrapper {
   column-gap: 19.92px;
 }
@@ -143,6 +143,7 @@
     padding-top: 58px;
   }
 }
+} */
 
 .footer-logo {
   font-size: 30.59px;
@@ -200,4 +201,52 @@
     font-size: 14px;
     min-width: 266px;
   }
- }
+}
+
+
+.home-page {
+  min-height: 431px;
+  background-size: auto 354px;
+  margin-bottom: 57px;
+  margin-top: 95px;
+  padding-left: 46px;
+  padding-right: 124px;
+}
+
+@media (min-width:1920px) {
+  .home-page {
+    min-height: 607px;
+    background-size: auto 497px;
+    margin-bottom: 80px;
+    margin-top: 134px;
+    padding-left: 64px;
+    padding-right: 174px;
+  }
+}
+
+.home-card {
+  max-width: 467px;
+  padding-block: 30px;
+  padding-inline: 26px;
+  border-radius: 21px;
+}
+
+@media (min-width:1920px) {
+  .home-card {
+    max-width: 657px;
+    padding-block: 42px;
+    padding-inline: 36px;
+    border-radius: 30px;
+  }
+}
+
+.home-title {
+  font-size: 33px;
+}
+
+
+@media (min-width:1920px) {
+  .home-card {
+    font-size: 46px;
+  }
+}

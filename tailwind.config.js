@@ -9,6 +9,10 @@ module.exports = {
         'podium-sharp': ['"FSP DEMO - PODIUM Sharp 4.11"', 'sans-serif'],
         'sf-pro': ['"SF Pro Display"', 'sans-serif'],
       },
+      screens: {
+        'xl': '1366px',
+        '2xl': '1920px',
+      }
     },
   },
   plugins: [],

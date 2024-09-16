@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Footer: FC = () => {
     return (
-        <div className=" bg-[#f7f7f7] flex flex-col items-center footer mt-0">
+        <div className=" bg-[#f7f7f7] flex flex-col items-center xl:pt-[41px] 2xl:pt-[58px] mt-0">
             <p className="font-podium-sharp font-[800] text-black footer-logo">
                 PRIMEAUTOCASH
             </p>
