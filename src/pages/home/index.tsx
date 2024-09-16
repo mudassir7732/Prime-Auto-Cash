@@ -22,7 +22,7 @@ const Home: FC = () => {
                         </p>
                     </div>
                 </p>
-                <p className="text-[18px] font-[600] font-[Manrope] text-[#171717] xl:mt-[36px] 2xl:mt-[50px] xl:mb-[3px] 2xl:mb-[4px]">
+                <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] xl:mt-[36px] 2xl:mt-[50px] xl:mb-[3px] 2xl:mb-[4px]">
                     VIN Number
                 </p>
                 <div className="flex flex-row items-center justify-between xl:h-[34px] 2xl:h-[48px] w-full xl:px-[11px] 2xl:px-[16px] xl:border-[1.4px] 2xl:border-[2px] border-[rgba(23, 23, 23, 0.1)] xl:rounded-[9px] 2xl:rounded-[12px]" >
@@ -36,23 +36,23 @@ const Home: FC = () => {
                 </p>
                 <div className="flex flex-row items-start xl:gap-x-[23px] 2xl:gap-x-[32px]">
                     <div className="w-full">
-                        <p className="xl:mt-[15px] 2xl:mt-[21px] xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70 xl:mb-[3px] 2xl:   mb-[4px]">
+                        <p className="xl:mt-[15px] 2xl:mt-[21px] xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70 xl:mb-[3px] 2xl:mb-[4px]">
                             Mileage
                         </p>
-                        <input placeholder="Enter Mileage" className="h-[48px] text-[15px] font-[400] font-sf-pro text-[#171717] text-opacity-70 outline-none px-[16px] rounded-[12px] border-[2px] border-[#171717] border-opacity-10 w-full" />
-                        <p className="mt-[4px] text-[13px] font-[Manrope] font-[600] text-[#171717] text-opacity-60">
+                        <input placeholder="Enter Mileage" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] font-[400] font-sf-pro text-[#171717] text-opacity-70 outline-none xl:px-[11px] 2xl:px-[16px] xl:rounded-[9px] 2xl:rounded-[12px] xl:border-[1.4px] 2xl:border-[2px] border-[#171717] border-opacity-10 w-full" />
+                        <p className="xl:mt-[3px] 2xl:mt-[4px] xl:text-[9px] 2xl:text-[13px] font-[Manrope] font-[600] text-[#171717] text-opacity-60">
                             Will help us understand car travelled by far.
                         </p>
                     </div>
                     <div className="w-full">
-                        <p className="mt-[21px] text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70 mb-[4px]">
+                        <p className="xl:mt-[15px] 2xl:mt-[21px] xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70 xl:mb-[3px] 2xl:mb-[4px]">
                             ZIP Code
                         </p>
-                        <input placeholder="Enter Area ZIP Code" className="h-[48px] text-[15px] font-[400] font-sf-pro text-[#171717] text-opacity-70 outline-none px-[16px] rounded-[12px] border-[2px] border-[#171717] border-opacity-10 w-full" />
+                        <input placeholder="Enter Area ZIP Code" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] font-[400] font-sf-pro text-[#171717] text-opacity-70 outline-none xl:px-[11px] 2xl:px-[16px] xl:rounded-[9px] 2xl:rounded-[12px] xl:border-[1.4px] 2xl:border-[2px] border-[#171717] border-opacity-10 w-full" />
                     </div>
                 </div>
                 <div className="w-full flex flex-col items-center">
-                    <button className="mt-[50px] h-[60px] w-[263px] bg-[#3155ff] text-[16px] font-[700] font-[Manrope] text-white rounded-[12px]">
+                    <button className="mt-[50px] h-[60px] w-[263px] bg-[#3155ff] text-[16px] font-[700] font-[Manrope] text-white xl:rounded-[9px] 2xl:rounded-[12px]">
                         Continue
                     </button>
                 </div>
