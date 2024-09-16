@@ -52,11 +52,11 @@ const Home: FC = () => {
                     </div>
                 </div>
                 <div className="w-full flex flex-col items-center">
-                    <button className="mt-[50px] h-[60px] w-[263px] bg-[#3155ff] text-[16px] font-[700] font-[Manrope] text-white xl:rounded-[9px] 2xl:rounded-[12px]">
+                    <button className="xl:mt-[36px] 2xlmt-[50px] xl:h-[43px] 2xl:h-[60px] xl:w-[187px] 2xl:w-[263px] bg-[#3155ff] xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-white xl:rounded-[9px] 2xl:rounded-[12px]">
                         Continue
                     </button>
                 </div>
-                <p className="text-[13px] font-[Manrope] font-[600] text-[#171717] text-opacity-30 mt-[24px] text-center">
+                <p className="xl:text-[9px] 2xl:text-[13px] font-[Manrope] font-[600] text-[#171717] text-opacity-30 xl:mt-[17px] 2xl:mt-[24px] text-center">
                     The VIN Number will help us identify the car details.
                 </p>
             </div>
