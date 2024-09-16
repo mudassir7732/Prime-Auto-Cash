@@ -50,3 +50,13 @@
     transform: rotate(360deg);
   }
 }
+
+.home-card{
+  max-width: 467px;
+}
+
+@media (min-width:1920px){
+  .home-card{
+    max-width: 657px;
+  }
+}

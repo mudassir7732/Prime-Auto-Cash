@@ -15,7 +15,7 @@ const Home: FC = () => {
                     QUICK CASHOFF IN CONFIDENCE
                 </p>
             </div>
-            <div className="bg-white h-full w-fit max-w-[657px] py-[42px] px-[36px] border-[0.5px] rounded-[30px] border-[#f8f8f8] shadow-2xl">
+            <div className="bg-white h-full w-fit max-w-[467px] home-card py-[42px] px-[36px] border-[0.5px] rounded-[30px] border-[#f8f8f8] shadow-2xl">
                 <p className="text-[41px] font-[700] text-center whitespace-nowrap font-[Manrope]">
                     Get an offer by just adding
                     <div className="flex flex-row items-center justify-center font-[Manrope]">
@@ -25,7 +25,7 @@ const Home: FC = () => {
                         </p>
                     </div>
                 </p>
-                <p className="text-[18px] font-[600] font-[Manrope] text-[#171717] mt-[50px] mb-[4px]">
+                <p className="text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70 mt-[50px] mb-[4px]">
                     VIN Number
                 </p>
                 <div className="flex flex-row items-center justify-between h-[48px] w-full px-[16px] border-[2px] border-[rgba(23, 23, 23, 0.1)] rounded-[12px] " >
