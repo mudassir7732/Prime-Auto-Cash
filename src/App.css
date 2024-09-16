@@ -51,16 +51,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-
-.home-title {
-  font-size: 33px;
-}
-
-
-@media (min-width:1920px) {
-  .home-card {
-    font-size: 46px;
-  }
-}
