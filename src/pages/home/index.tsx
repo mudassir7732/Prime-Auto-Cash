@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Home: FC = () => {
     return (
-        <div className="home-page w-full bg-no-repeat flex flex-row items-center justify-between" style={{
+        <div className="2xl: xl:min-h-[431px] 2xl:min-h-[607px] xl:mb-[57px] 2xl:mb-[80px] xl:mt-[95px] 2xl:mt-[134px] xl:pl-[46px] 2xl:pl-[64px] xl:pr-[124px] 2xl:pr-[174px] w-full bg-no-repeat flex flex-row items-center justify-between" style={{
             backgroundImage: 'url(/assets/images/Rectangle130.png)',
             backgroundPosition: 'center center'
         }}>
