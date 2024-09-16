@@ -46,17 +46,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.home-card{
+.header {
+  height: 72px;
+}
+
+@media (min-width:1920px) {
+  .header {
+    height: 102px;
+  }
+}
+
+.home-card {
   max-width: 467px;
 }
 
-@media (min-width:1920px){
-  .home-card{
+@media (min-width:1920px) {
+  .home-card {
     max-width: 657px;
   }
 }

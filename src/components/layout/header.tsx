@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Header: FC = () => {
     return (
-        <div className="bg-black w-full h-[102px] pt-[35px] pb-[25px] px-[78px] flex flex-row items-center justify-between">
+        <div className="bg-black w-full header pt-[35px] pb-[25px] px-[78px] flex flex-row items-center justify-between">
             <p className="font-podium-sharp font-[800] text-white text-[24px] ">
                 PRIMEAUTOCASH
             </p>
@@ -18,13 +18,13 @@ const Header: FC = () => {
                     </p>
                 </div>
                 <div className="flex flex-row items-center justify-between gap-x-[28px]">
-                    <button className="text-[11px] font-[400] font-[Poppins] text-white">
+                    <button className="text-[11px] font-[400] font-[Poppins] text-white outline-none">
                         ABOUT US
                     </button>
-                    <button className="text-[11px] font-[400] font-[Poppins] text-white">
+                    <button className="text-[11px] font-[400] font-[Poppins] text-white outline-none">
                         CONTACT US
                     </button>
-                    <button className="text-[11px] font-[400] font-[Poppins] text-white">
+                    <button className="text-[11px] font-[400] font-[Poppins] text-white outline-none">
                         FAQ
                     </button>
                 </div>
