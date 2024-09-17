@@ -19,13 +19,13 @@ const Header: FC = () => {
                     </p>
                 </div>
                 <div className={styles.buttons_wrapper}>
-                    <button className="xl:text-[7.82px] 2xl:text-[11px] font-[400] font-[Poppins] text-white outline-none">
+                    <button className={styles.button}>
                         ABOUT US
                     </button>
-                    <button className="xl:text-[7.82px] 2xl:text-[11px] font-[400] font-[Poppins] text-white outline-none">
+                    <button className={styles.button}>
                         CONTACT US
                     </button>
-                    <button className="xl:text-[7.82px] 2xl:text-[11px] font-[400] font-[Poppins] text-white outline-none">
+                    <button className={styles.button}>
                         FAQ
                     </button>
                 </div>

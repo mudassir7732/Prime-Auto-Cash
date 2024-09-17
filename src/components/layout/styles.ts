@@ -7,6 +7,7 @@ const styles = {
     icon:"xl:h-[14.22px] xl:w-[14.22px] 2xl:h-[20px] 2xl:w-[20px] cursor-pointer",
     contact_number:"xl:text-[7.82px] 2xl:text-[11px] underline text-white font-[Poppins] font-[400]",
     buttons_wrapper:"flex flex-row items-center justify-between xl:gap-x-[19.92px] 2xl:gap-x-[28px]",
+    button:"xl:text-[7.82px] 2xl:text-[11px] font-[400] font-[Poppins] text-white outline-none",
     
 }
 export default styles;
