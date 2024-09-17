@@ -32,7 +32,7 @@ const Information1 = () => {
             </div>
 
             <div className="flex flex-row items-start w-fit xl:gap-x-[53px] 2xl:gap-x-[75px]">
-                <div className="bg-white xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]">
+                <div className="bg-white xl:h-[411px] 2xl:h-[578px] xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]">
                     <p className="xl:text-[28px] 2xl:text-[40px] text-center font-[700] font-[Manrope] text-black">
                         Vehicle Information
                     </p>
@@ -89,11 +89,11 @@ const Information1 = () => {
                     </div>
                 </div>
 
-                <div className="bg-white xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]">
+                <div className="bg-white xl:h-[411px] 2xl:h-[578px] xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]">
                     <p className="xl:text-[28px] 2xl:text-[40px] text-center font-[700] font-[Manrope] text-black">
                         Your Information
                     </p>
-                    <div>
+                    <div className="xl:mt-[55px] 2xl:mt-[78px]">
                         <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                             Full Name
                         </p>
@@ -104,7 +104,7 @@ const Information1 = () => {
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                                 Email Address
                             </p>
-                            <input placeholder="Enter your E-maik" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                            <input placeholder="Enter your E-mail" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
                         </div>
                         <div className="w-full">
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
