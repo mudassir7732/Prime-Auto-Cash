@@ -4,7 +4,7 @@ import styles from "./styles";
 const Header: FC = () => {
     return (
         <div className={styles.header_container}>
-            <p className="font-podium-sharp font-[800] text-white xl:text-[17px] 2xl:text-[24px]">
+            <p className={styles.header_logo}>
                 PRIMEAUTOCASH
             </p>
             <div className="flex flex-row items-center justify-between xl:gap-x-[45px] 2xl:gap-x-[64px]">
