@@ -98,20 +98,20 @@ const Information1 = () => {
                         <p className={styles.input_label}>
                             Full Name
                         </p>
-                        <input placeholder="Enter your full name" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                        <input placeholder="Enter your full name" className={styles.simple_input} />
                     </div>
                     <div className={`${styles.inputs_wrapper} xl:mt-[14px] 2xl:mt-[20px]`}>
                         <div className="w-full">
                             <p className={styles.input_label}>
                                 Email Address
                             </p>
-                            <input placeholder="Enter your E-mail" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                            <input placeholder="Enter your E-mail" className={styles.simple_input} />
                         </div>
                         <div className="w-full">
                             <p className={styles.input_label}>
                                 Mobile Number
                             </p>
-                            <input placeholder="Enter your Cell No." className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                            <input placeholder="Enter your Cell No." className={styles.simple_input} />
                         </div>
                     </div>
                     <div className="w-full flex flex-col items-center">
