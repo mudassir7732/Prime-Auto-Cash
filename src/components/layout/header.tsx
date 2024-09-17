@@ -4,12 +4,12 @@ import styles from "./styles";
 const Header: FC = () => {
     return (
         <div className={styles.header_container}>
-            <p className={styles.header_logo}>
+            <p className={styles.logo}>
                 PRIMEAUTOCASH
             </p>
-            <div className="flex flex-row items-center justify-between xl:gap-x-[45px] 2xl:gap-x-[64px]">
-                <div className="flex flex-row items-center justify-betweens xl:gap-x-[6.97px] 2xl:gap-x-[9.8px]">
-                    <div className="flex flex-row items-center justify-between xl:gap-x-[8.39px] 2xl:gap-x-[11.8px]">
+            <div className={styles.right_side}>
+                <div className={styles.contacts_wrapper}>
+                    <div className={styles.icons_wrapper}>
                         <img src="/assets/icons/insta.svg" className="xl:h-[14.22px] xl:w-[14.22px] 2xl:h-[20px] 2xl:w-[20px] cursor-pointer" />
                         <img src="/assets/icons/fb.svg" className="xl:h-[14.22px] xl:w-[14.22px] 2xl:h-[20px] 2xl:w-[20px] cursor-pointer" />
                         <img src="/assets/icons/dot.svg" className="h-[4px] w-[4px]" />
