@@ -10,9 +10,9 @@ const Header: FC = () => {
             <div className={styles.right_side}>
                 <div className={styles.contacts_wrapper}>
                     <div className={styles.icons_wrapper}>
-                        <img src="/assets/icons/insta.svg" className={styles.icon} />
-                        <img src="/assets/icons/fb.svg" className={styles.icon} />
-                        <img src="/assets/icons/dot.svg" className="h-[4px] w-[4px]" />
+                        <img alt="social_icon" src="/assets/icons/insta.svg" className={styles.icon} />
+                        <img alt="social_icon" src="/assets/icons/fb.svg" className={styles.icon} />
+                        <img alt="social_icon" src="/assets/icons/dot.svg" className="h-[4px] w-[4px]" />
                     </div>
                     <p className={styles.contact_number}>
                         +1 (682) 222-2242
