@@ -16,6 +16,7 @@ const styles = {
     placeholder:"xl:text-[11px] 2xl:text-[15px] text-[#171717] font-[400] text-opacity-60 whitespace-nowrap font-sf-pro",
     button_wrapper:"w-full flex flex-col items-center",
     button:"xl:mt-[36px] 2xl:mt-[50px] xl:h-[43px] 2xl:h-[60px] xl:w-[187px] 2xl:w-[263px] bg-[#3155ff] hover:bg-[#2746cc] xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-white xl:rounded-[9px] 2xl:rounded-[12px]",
-    button_helper_text:"xl:text-[9px] 2xl:text-[13px] font-[Manrope] font-[600] text-[#171717] text-opacity-30 xl:mt-[17px] 2xl:mt-[24px] text-center"
+    button_helper_text:"xl:text-[9px] 2xl:text-[13px] font-[Manrope] font-[600] text-[#171717] text-opacity-30 xl:mt-[17px] 2xl:mt-[24px] text-center",
+    error:'text-red-500 font-sans ml-2 text-[12px] mb-0 font-semibold'
 }
 export default styles;
