@@ -15,7 +15,7 @@ const styles = {
     simple_input:"xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] font-[400] font-sf-pro text-[#171717] text-opacity-70 outline-none xl:px-[11px] 2xl:px-[16px] xl:rounded-[9px] 2xl:rounded-[12px] xl:border-[1.4px] 2xl:border-[2px] border-[#171717] border-opacity-10 w-full",
     placeholder:"xl:text-[11px] 2xl:text-[15px] text-[#171717] font-[400] text-opacity-60 whitespace-nowrap font-sf-pro",
     button_wrapper:"w-full flex flex-col items-center",
-    button:"xl:mt-[36px] 2xl:mt-[50px] xl:h-[43px] 2xl:h-[60px] xl:w-[187px] 2xl:w-[263px] bg-[#3155ff] xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-white xl:rounded-[9px] 2xl:rounded-[12px]",
+    button:"xl:mt-[36px] 2xl:mt-[50px] xl:h-[43px] 2xl:h-[60px] xl:w-[187px] 2xl:w-[263px] bg-[#3155ff] hover:bg-[#2746cc] xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-white xl:rounded-[9px] 2xl:rounded-[12px]",
     button_helper_text:"xl:text-[9px] 2xl:text-[13px] font-[Manrope] font-[600] text-[#171717] text-opacity-30 xl:mt-[17px] 2xl:mt-[24px] text-center"
 }
 export default styles;
