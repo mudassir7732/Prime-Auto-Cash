@@ -20,7 +20,6 @@ const USER_SCHEMA = yup.object().shape({
 })
 
 const Information1 = () => {
-
     const handleVehicleInfo = (values: VehicleProps) => {
         console.log(values, ' = Values');
     }

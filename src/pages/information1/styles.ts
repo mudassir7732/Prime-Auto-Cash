@@ -6,7 +6,7 @@ const styles = {
     step_text:"xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope]",
     divider:"w-[115px] h-[1px] bg-[#bfbfbf]",
     cards_wrapper: "flex flex-row items-stretch w-fit xl:gap-x-[53px] 2xl:gap-x-[75px] xl:min-h-[411px] 2xl:min-h-[578px]",
-    card: "bg-white flex-grow xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]",    
+    card: "bg-white flex-grow xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px] border-[1px] border-[#f6f6f6]",
     card_title:"xl:text-[28px] 2xl:text-[40px] text-center font-[700] font-[Manrope] text-black",
     inputs_wrapper:"flex flex-row items-start justify-between xl:gap-x-[19px] 2xl:gap-x-[27px]",
     input_label:"xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70",
