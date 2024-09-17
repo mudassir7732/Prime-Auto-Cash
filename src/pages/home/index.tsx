@@ -5,9 +5,6 @@ import * as yup from 'yup';
 import { FORM_VALUES } from "../../constants/form-values";
 import { FormProps } from "../../types/form-props";
 
-
-
-
 const VALIDATION_SCHEMA = yup.object().shape({
     VIN: yup.number().typeError('Digits only').required('VIN number required'),
     mileage: yup.number().typeError('Digits only').required('Mileage required'),
@@ -15,10 +12,10 @@ const VALIDATION_SCHEMA = yup.object().shape({
 })
 
 const Home: FC = () => {
-
     const handleSubmit = (values: FormProps) => {
         console.log(values, ' = Values');
     }
+
     return (
         <div className={styles.container}
             style={{ backgroundImage: 'url(/assets/images/Rectangle130.png)', backgroundSize: '100% 80%', }}
