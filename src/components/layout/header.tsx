@@ -18,7 +18,7 @@ const Header: FC = () => {
                         +1 (682) 222-2242
                     </p>
                 </div>
-                <div className="flex flex-row items-center justify-between xl:gap-x-[19.92px] 2xl:gap-x-[28px]">
+                <div className={styles.buttons_wrapper}>
                     <button className="xl:text-[7.82px] 2xl:text-[11px] font-[400] font-[Poppins] text-white outline-none">
                         ABOUT US
                     </button>

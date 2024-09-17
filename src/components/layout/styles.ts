@@ -6,6 +6,7 @@ const styles = {
     icons_wrapper:"flex flex-row items-center justify-between xl:gap-x-[8.39px] 2xl:gap-x-[11.8px]",
     icon:"xl:h-[14.22px] xl:w-[14.22px] 2xl:h-[20px] 2xl:w-[20px] cursor-pointer",
     contact_number:"xl:text-[7.82px] 2xl:text-[11px] underline text-white font-[Poppins] font-[400]",
+    buttons_wrapper:"flex flex-row items-center justify-between xl:gap-x-[19.92px] 2xl:gap-x-[28px]",
     
 }
 export default styles;
