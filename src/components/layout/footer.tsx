@@ -1,28 +1,29 @@
 import { FC } from "react";
+import styles from "./styles";
 
 const Footer: FC = () => {
     return (
-        <div className=" bg-[#f7f7f7] flex flex-col items-center xl:pt-[41px] 2xl:pt-[58px] mt-0">
-            <p className="font-podium-sharp font-[800] text-black xl:text-[30.59px] 2xl:text-[43px] xl:mb-[28.45px] 2xl:mb-[40px]">
+        <div className={styles.footer_container}>
+            <p className={styles.footer_logo}>
                 PRIMEAUTOCASH
             </p>
-            <div className="flex flex-row items-center xl:mb-[44px] xl:gap-x-[48px] xl:text-[16px] 2xl:mb-[63px] 2xl:gap-x-[68px] 2xl:text-[22.5px]">
-                <button className="xl:text-[16px] 2xl:text-[22.5px] text-black font-[400] font-sf-pro">
+            <div className={styles.footer_buttons_wrapper}>
+                <button className={styles.footer_button}>
                     Home
                 </button>
-                <button className="xl:text-[16px] 2xl:text-[22.5px] text-black font-[400] font-sf-pro">
+                <button className={styles.footer_button}>
                     FAQ
                 </button>
-                <button className="xl:text-[16px] 2xl:text-[22.5px] text-black font-[400] font-sf-pro">
+                <button className={styles.footer_button}>
                     Terms & Condition
                 </button>
-                <button className="xl:text-[16px] 2xl:text-[22.5px] text-black font-[400] font-sf-pro">
+                <button className={styles.footer_button}>
                     Privacy Policy
                 </button>
             </div>
-            <div className="xl:h-[37px] 2xl:h-[52px] w-full flex flex-row items-center">
+            <div className={styles.bottom_bar}>
                 <div className="w-full bg-black h-full rounded-tr-full" />
-                <div className="xl:min-w-[189px] 2xl:min-w-[266px] xl:text-[9.96px] 2xl:text-[14px] flex flex-row items-center justify-center font-[400] font-sf-pro text-black">
+                <div className={styles.text}>
                     © 2024
                     <p className="ml-1 underline">
                         MK AUTOS
