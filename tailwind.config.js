@@ -10,7 +10,7 @@ module.exports = {
         'sf-pro': ['"SF Pro Display"', 'sans-serif'],
       },
       screens: {
-        'xl': '1366px',
+        'xl': '1024px',
         '2xl': '1920px',
       }
     },
