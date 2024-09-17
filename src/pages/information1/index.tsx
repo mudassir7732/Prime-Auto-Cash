@@ -39,37 +39,37 @@ const Information1 = () => {
                     </p>
                     <div className={`${styles.inputs_wrapper} xl:mt-[55px] 2xl:mt-[78px]`}>
                         <div className="w-[59%]">
-                            <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
+                            <p className={styles.input_label}>
                                 Year, Maker and Model
                             </p>
-                            <input placeholder="2018 BMW Series 580i" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#3155ff] font-[700] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                            <input placeholder="2018 BMW Series 580i" className="xl:h-[34px] 2xl:h-[48px] xl:px-[11px] 2xl:px-[15px] shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#3155ff] font-[700] font-[Manrope] outline-none w-full" />
                         </div>
                         <div className="w-[35%]">
-                            <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
+                            <p className={styles.input_label}>
                                 Transmission
                             </p>
                             <div className="flex flex-row items-center justify-between xl:h-[34px] 2xl:h-[48px] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px]">
-                                <input placeholder="Automatic" className="xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#3155ff] font-[700] font-[Manrope] outline-none w-[80px]" />
+                                <input placeholder="Automatic" className="xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#3155ff] font-[700] font-[Manrope] outline-none w-full" />
                                 <p className="xl:text-[8px] 2xl:text-[11px] font-[600] font-sf-pro text-[#cbbdbd] text-opacity-60">
                                     Type
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="xl:mt-[14px] 2xl:mt-[20px] flex flex-row items-start justify-between xl:w-[418px] 2xl:w-[588px]">
+                    <div className="xl:mt-[14px] 2xl:mt-[20px] flex flex-row items-start justify-between">
                         <div className="w-[55%]">
-                            <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
+                            <p className={styles.input_label}>
                                 VIN Number
                             </p>
                             <div className="flex flex-row items-center justify-between xl:h-[34px] 2xl:h-[48px] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px]">
-                                <input placeholder="2GNALCELK6H1588338" className="xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#3155ff] font-[700] font-[Manrope] h-full outline-none" />
+                                <input placeholder="2GNALCELK6H1588338" className="xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#3155ff] font-[700] font-[Manrope] outline-none h-full" />
                                 <p className="xl:text-[8px] 2xl:text-[11px] font-[600] font-sf-pro text-[#cbbdbd] text-opacity-60">
                                     17 DIGIT VIN
                                 </p>
                             </div>
                         </div>
                         <div className="w-[39%]">
-                            <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
+                            <p className={styles.input_label}>
                                 Mileage
                             </p>
                             <div className="flex flex-row items-center justify-between xl:h-[34px] 2xl:h-[48px] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px]">
@@ -95,20 +95,20 @@ const Information1 = () => {
                         Your Information
                     </p>
                     <div className="xl:mt-[55px] 2xl:mt-[78px]">
-                        <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
+                        <p className={styles.input_label}>
                             Full Name
                         </p>
                         <input placeholder="Enter your full name" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
                     </div>
                     <div className={`${styles.inputs_wrapper} xl:mt-[15px] 2xl:mt-[21px]`}>
                         <div className="w-full">
-                            <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
+                            <p className={styles.input_label}>
                                 Email Address
                             </p>
                             <input placeholder="Enter your E-mail" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
                         </div>
                         <div className="w-full">
-                            <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
+                            <p className={styles.input_label}>
                                 Mobile Number
                             </p>
                             <input placeholder="Enter your Cell No." className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
