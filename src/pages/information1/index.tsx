@@ -1,49 +1,50 @@
+import styles from "./styles";
 
 const Information1 = () => {
     return (
-        <div className="bg-[#fafafa] pt-[100px] pb-[96px] flex flex-col items-center">
-            <div className="xl:min-w-[381px] 2xl:min-w-[535px] flex flex-row items-center justify-between xl:gap-x-[16px] 2xl:gap-x-[23px] xl:mb-[36px] 2xl:mb-[50px]">
-                <div className="flex flex-col items-center gap-y-[4px]">
-                    <div className="xl:w-[43px] 2xl:w-[61px] xl:h-[20px] 2xl:h-[28px] xl:rounded-[9px] 2xl:rounded-[13px] bg-[#6c757d] bg-opacity-10 flex flex-col items-center justify-center xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-[#b8b6b6]">
+        <div className={styles.container}>
+            <div className={styles.stepper}>
+                <div className={styles.step}>
+                    <div className={`${styles.step_no} text-[#b8b6b6] bg-[#6c757d] bg-opacity-10`}>
                         1
                     </div>
-                    <p className="xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-[#bcbcbc]">
+                    <p className={`${styles.step_text} text-[#bcbcbc]`}>
                         Vehicle
                     </p>
                 </div>
-                <div className="w-[115px] h-[1px] bg-[#bfbfbf]" />
-                <div className="flex flex-col items-center gap-y-[4px]">
-                    <div className="xl:w-[43px] 2xl:w-[61px] xl:h-[20px] 2xl:h-[28px] xl:rounded-[9px] 2xl:rounded-[13px] bg-[#3155ff] flex flex-col items-center justify-center xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-white">
+                <div className={styles.divider} />
+                <div className={styles.step}>
+                    <div className={`${styles.step_no} text-white bg-[#3155ff]`}>
                         2
                     </div>
-                    <p className="xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-[#7b7b7b]">
+                    <p className={`${styles.step_text} text-[#7b7b7b]`}>
                         Information
                     </p>
                 </div>
-                <div className="w-[115px] h-[1px] bg-[#bfbfbf]" />
-                <div className="flex flex-col items-center gap-y-[4px]">
-                    <div className="xl:w-[43px] 2xl:w-[61px] xl:h-[20px] 2xl:h-[28px] xl:rounded-[9px] 2xl:rounded-[13px] bg-[#6c757d] bg-opacity-10 flex flex-col items-center justify-center xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-[#b8b6b6]">
+                <div className={styles.divider} />
+                <div className={styles.step}>
+                    <div className={`${styles.step_no} text-[#b8b6b6] bg-[#6c757d] bg-opacity-10`}>
                         3
                     </div>
-                    <p className="xl:text-[11px] 2xl:text-[16px] font-[700] font-[Manrope] text-[#bcbcbc]">
+                    <p className={`${styles.step_text} text-[#bcbcbc]`}>
                         Offer
                     </p>
                 </div>
             </div>
 
-            <div className="flex flex-row items-start w-fit xl:gap-x-[53px] 2xl:gap-x-[75px]">
-                <div className="bg-white xl:h-[411px] 2xl:h-[578px] xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]">
-                    <p className="xl:text-[28px] 2xl:text-[40px] text-center font-[700] font-[Manrope] text-black">
+            <div className={styles.cards_wrapper}>
+                <div className={styles.card}>
+                    <p className={styles.card_title}>
                         Vehicle Information
                     </p>
-                    <div className="xl:mt-[55px] 2xl:mt-[78px] flex flex-row items-start justify-between xl:w-[418px] 2xl:w-[588px]">
-                        <div className="xl:w-[247px] 2xl:w-[347px]">
+                    <div className="flex flex-row items-start justify-between xl:gap-x-[19px] 2xl:gap-x-[27px] xl:mt-[55px] 2xl:mt-[78px]">
+                        <div className="w-[59%]">
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                                 Year, Maker and Model
                             </p>
                             <input placeholder="2018 BMW Series 580i" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#3155ff] font-[700] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
                         </div>
-                        <div className="xl:w-[148px] 2xl:w-[208px]">
+                        <div className="w-[35%]">
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                                 Transmission
                             </p>
@@ -56,7 +57,7 @@ const Information1 = () => {
                         </div>
                     </div>
                     <div className="xl:mt-[14px] 2xl:mt-[20px] flex flex-row items-start justify-between xl:w-[418px] 2xl:w-[588px]">
-                        <div className="xl:w-[232px] 2xl:w-[326px]">
+                        <div className="w-[55%]">
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                                 VIN Number
                             </p>
@@ -67,7 +68,7 @@ const Information1 = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="xl:w-[163px] 2xl:w-[229px]">
+                        <div className="w-[39%]">
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                                 Mileage
                             </p>
@@ -89,28 +90,28 @@ const Information1 = () => {
                     </div>
                 </div>
 
-                <div className="bg-white xl:h-[411px] 2xl:h-[578px] xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]">
-                    <p className="xl:text-[28px] 2xl:text-[40px] text-center font-[700] font-[Manrope] text-black">
+                <div className={styles.card}>
+                    <p className={styles.card_title}>
                         Your Information
                     </p>
                     <div className="xl:mt-[55px] 2xl:mt-[78px]">
                         <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                             Full Name
                         </p>
-                        <input placeholder="Enter your full name" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                        <input placeholder="Enter your full name" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
                     </div>
-                    <div className="flex flex-row items-center gap-x-[27px] mt-[21px]">
+                    <div className="flex flex-row items-center xl:gap-x-[19px] 2xl:gap-x-[27px] xl:mt-[15px] 2xl:mt-[21px]">
                         <div className="w-full">
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                                 Email Address
                             </p>
-                            <input placeholder="Enter your E-mail" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                            <input placeholder="Enter your E-mail" className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
                         </div>
                         <div className="w-full">
                             <p className="xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70">
                                 Mobile Number
                             </p>
-                            <input placeholder="Enter your Cell No." className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
+                            <input placeholder="Enter your Cell No." className="xl:h-[34px] 2xl:h-[48px] xl:text-[11px] 2xl:text-[15px] text-[#3155ff] placeholder-[#171717] placeholder-opacity-25 font-[400] font-[Manrope] xl:px-[11px] 2xl:px-[15px] w-full border-[1px] border-[#171717] border-opacity-10 xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px] outline-none" />
                         </div>
                     </div>
                     <div className="w-full flex flex-col items-center">
