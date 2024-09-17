@@ -8,7 +8,7 @@ const styles = {
     cards_wrapper: "flex flex-row items-stretch w-fit xl:gap-x-[53px] 2xl:gap-x-[75px] xl:min-h-[411px] 2xl:min-h-[578px]",
     card: "bg-white flex-grow xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]",    
     card_title:"xl:text-[28px] 2xl:text-[40px] text-center font-[700] font-[Manrope] text-black",
-    inputs_wrapper:"flex flex-row items-center justify-between xl:gap-x-[19px] 2xl:gap-x-[27px]",
+    inputs_wrapper:"flex flex-row items-start justify-between xl:gap-x-[19px] 2xl:gap-x-[27px]",
     input_label:"xl:text-[13px] 2xl:text-[18px] font-[600] font-[Manrope] text-[#171717] text-opacity-70",
     input_wrapper:"xl:h-[34px] 2xl:h-[48px] xl:px-[11px] 2xl:px-[15px] w-full shadow-md border-[1px] border-[#f6f6f6] xl:rounded-[9px] 2xl:rounded-[12px] xl:mt-[6px] 2xl:mt-[8px]",
     placeholder:"xl:text-[8px] 2xl:text-[11px] font-[600] font-sf-pro text-[#cbbdbd] text-opacity-60",
