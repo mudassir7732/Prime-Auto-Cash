@@ -8,6 +8,7 @@ const styles = {
     cards_wrapper:"flex flex-row items-start w-fit xl:gap-x-[53px] 2xl:gap-x-[75px]",
     card:"bg-white xl:h-[411px] 2xl:h-[578px] xl:py-[48px] 2xl:py-[68px] xl:px-[26px] 2xl:px-[36px] xl:rounded-[21px] 2xl:rounded-[30px] shadow-lg xl:w-[470px] 2xl:w-[660px]",
     card_title:"xl:text-[28px] 2xl:text-[40px] text-center font-[700] font-[Manrope] text-black",
+    inputs_wrapper:"flex flex-row items-center xl:gap-x-[19px] 2xl:gap-x-[27px]",
     
 }
 export default styles;
